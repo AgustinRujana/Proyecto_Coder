@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/cotizar.css">
+    <title>Cotizar</title>
+  </head>
+  <body>
+
+    <div class="container-md">
+        <div class="row justify-content-center">
+            <div class="col" id="top"> 
+                <img src="../img/Logo3.jpg" alt="Logo Puerto Bici">
+            </div>
+        </div>
+        <div class="row justify-content-center" id="mid">
+            <div class="col flexcentered">
+                <h2>Playera</h2>
+                <img src="../img/playera.jpg" class="img_bike" alt="Bicicleta Playera">
+                <input type="number" class="bici-input" name="playera" value="0" min="0">
+            </div>
+            <div class="col flexcentered">
+                <h2>Doble</h2>
+                <img src="../img/doble.jpg" class="img_bike" alt="Bicicleta Doble">
+                <input type="number" class="bici-input" name="doble" value="0" min="0"> 
+            </div>
+            <div class="col flexcentered">
+                <h2>Mountain S</h2>
+                <img src="../img/mountain.jpg" class="img_bike" alt="Bicicleta Mountain Bike">
+                <input type="number" class="bici-input" name="mountainS" value="0" min="0">
+            </div>
+            <div class="col flexcentered">
+                <h2>Mountain P</h2>
+                <img src="../img/mountaindoble.jpg" class="img_bike" alt="Bicicleta Mountain Bike doble suspension">
+                <input type="number" class="bici-input" name="mountainD" value="0" min="0">
+            </div>            
+        </div>
+        <div class="row justify-content-center" id="h-bttm">
+            <div class="col flexcentered">
+                <button class="btn" id="save-btn">Guardar cambios</button>
+            </div>
+            <div class="col flexcentered">
+                <button class="btn" id="reload-btn">Volver al pedido anterior</button>
+            </div>       
+        </div>
+        <div class="row flexcentered" id="m-bttm">
+            <div class="range-slider">
+                <input id="hours" class="range-slider__range" type="range" value="0" min="0" max="72">
+                <span class="range-slider__value">0</span>
+              </div>
+        </div>
+        <div class="row flexcentered" id="l-bttm">
+
+        </div>      
+    </div>
+
+    <script defer src="../js/cotizar.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

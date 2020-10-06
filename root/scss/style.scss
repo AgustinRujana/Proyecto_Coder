@@ -1,0 +1,82 @@
+@import "colors";
+@import "fonts";
+
+/////////////////
+
+nav{
+    background-color:$C_Nav;
+}
+
+body{
+    background-color:$C_Fondo;
+}
+
+h2{
+    font-family:$MainFont;
+}
+
+.main{
+    background-color:$C_Sec;
+}
+
+.main_foot{
+    background-color:$C_Nav;
+}
+
+.intro{
+    padding-top: 25px;
+}
+
+.intro_text{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    h6{
+       font-family:$SecFont;
+    }
+}
+
+.ubi{
+    padding: 25px;
+}
+
+.ubi_map{
+    height: 300px;
+}
+
+.ubi_text{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    p {
+        font-family:$SecFont;
+    }
+}
+
+.cotizar_btn{
+    margin-top: 25px;
+    padding: 5px 25px 5px 25px;
+    font-size: 25px;
+    font-family:$SecFont;
+    color:$C_Fondo;
+    background-color:$C_Nav;
+    border: 2px solid black;
+}
+
+.cotizar_btn:hover{
+    background-color:$C_NavH;
+    border: 2px solid black;
+}
+
+.link_text{
+    color: rgb(43, 42, 42);
+    padding: 10px;
+    font-family:$SecFont;
+    font-size: large;
+}
+
+.link_text:hover{
+    text-decoration: none;
+    color: black;
+}
+
