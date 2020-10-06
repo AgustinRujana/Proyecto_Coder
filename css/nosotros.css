@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(255, 250, 179);
+}
+
+img{
+    padding: 7px;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 100%;
+}
+.A{
+    display: none;
+}
+
+#grid{
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "heading heading heading"
+    "img-us us us"
+    "cli cli img-cli" 
+    "img-ceo ceo ceo"   
+    ;
+    grid-template-rows: 150px 200px 200px 200px; 
+    grid-template-columns: 15% 70% 15%;
+    grid-row-gap:10px;
+    margin: 0;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#heading{
+    grid-area: heading;
+    background-color:  #e7305b;
+}
+
+section#img-us{
+    grid-area: img-us;
+    background-color: #9bdeac;
+}
+
+section#us{
+    grid-area:us;
+    background-color: #d0f8c0;
+}
+
+section#cli{
+    grid-area: cli;
+    background-color: #d0f8c0;
+}
+
+section#img-cli{
+    grid-area: img-cli;
+    background-color: #9bdeac;
+}
+
+section#ceo{
+    grid-area: ceo;
+    background-color: #d0f8c0;
+}
+
+section#img-ceo{
+    grid-area: img-ceo;
+    background-color: #9bdeac;
+}
+
+aside{
+    grid-area: aside;
+    background-color:  #f3829d;
+}
+
+/* @media only screen and (min-width: 480px) {
+    #grid{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "aside heading heading heading"
+        "aside img-us us us"
+        "aside cli cli img-cli"  
+        "aside img-ceo ceo ceo"  
+        ;
+        grid-template-rows: 150px 200px 200px 200px; 
+        grid-template-columns: 5% 15% 65% 15%;
+        grid-row-gap:10px;
+        margin: 0;
+    }
+    
+} */
+
+@media only screen and (min-width: 480px) {
+    #grid{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "heading heading heading"
+        "img-us us us"
+        "cli cli img-cli"
+        "img-ceo ceo ceo"    
+        ;
+        grid-template-rows: 150px 250px 250px 250px; 
+        grid-template-columns: 30% 40% 30%;
+        grid-row-gap:10px;
+        margin: 0;
+    }
+    .A{
+        display: inline;
+        font-size: 150%;
+    }
+    .B{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    #grid{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "aside heading heading heading"
+        "aside img-us us us"
+        "aside cli cli img-cli"
+        "aside img-ceo ceo ceo"    
+        ;
+        grid-template-rows: 150px 250px 250px 250px; 
+        grid-template-columns: 5% 25% 45% 25%;
+        grid-row-gap:10px;
+        margin: 0;
+    }
+    
+    aside{
+        grid-area: aside;
+    }
+    
+    .A{
+        font-size: 175%;
+    }
+}
+
+@media only screen and (min-width: 1028px) {
+    #grid{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "aside heading heading heading"
+        "aside img-us us us"
+        "aside cli cli img-cli"
+        "aside img-ceo ceo ceo"
+        ;
+        grid-template-rows: 150px 250px 250px 250px; 
+        grid-template-columns: 5% 20% 45% 20%;
+        grid-row-gap:10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .A{
+        font-size: 200%;
+    }
+}
+    

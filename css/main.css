@@ -1,0 +1,60 @@
+nav {
+  background-color: #ff6f8a; }
+
+body {
+  background-color: #fffab3; }
+
+h2 {
+  font-family: "Pacifico", cursive; }
+
+.main {
+  background-color: #9bdeac; }
+
+.main_foot {
+  background-color: #ff6f8a; }
+
+.intro {
+  padding-top: 25px; }
+
+.intro_text {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto; }
+  .intro_text h6 {
+    font-family: "Arimo", sans-serif; }
+
+.ubi {
+  padding: 25px; }
+
+.ubi_map {
+  height: 300px; }
+
+.ubi_text {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto; }
+  .ubi_text p {
+    font-family: "Arimo", sans-serif; }
+
+.cotizar_btn {
+  margin-top: 25px;
+  padding: 5px 25px 5px 25px;
+  font-size: 25px;
+  font-family: "Arimo", sans-serif;
+  color: #fffab3;
+  background-color: #ff6f8a;
+  border: 2px solid black; }
+
+.cotizar_btn:hover {
+  background-color: #fa4566;
+  border: 2px solid black; }
+
+.link_text {
+  color: #2b2a2a;
+  padding: 10px;
+  font-family: "Arimo", sans-serif;
+  font-size: large; }
+
+.link_text:hover {
+  text-decoration: none;
+  color: black; }
