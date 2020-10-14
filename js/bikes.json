@@ -1,0 +1,37 @@
+[
+    {
+        "id": "0",
+        "name": "Playera",
+        "price": 60,
+        "description": "Bicicleta Playera simple, la opcion mas economica para los ahorradores compulsivos, no incluye frenos.",
+        "img": "../img/playera.jpg",
+        "carga": "Solo dios sabe"
+    },
+
+    {
+        "id": "1",
+        "name": "Doble",
+        "price": 150,
+        "description": "Biclicleta doble, este rodado cuenta con dos asientos aumentando la capacidad, por si pedalear solo por tu peso no alcanza, incluye a un familiar mas para que no lo haga",
+        "img": "../img/doble.jpg",
+        "carga": "520kg"
+    },
+
+    {
+        "id": "2",
+        "name": "Mountain Simple",
+        "price": 150,
+        "description": "Biclicleta todo terreno, este rodado cuenta con suspension delantera, apta para ripio y zonas con infraestructura decadente",
+        "img": "../img/mountain.jpg",
+        "carga": "420kg"
+    },
+
+    {
+        "id": "3",
+        "name": "Mountain Premium",
+        "price": 180,
+        "description": "Biclicleta todo terreno mejorada, tras incidentes que no valen la pena rememorar incorporamos a nuestra flota este rodado, cuenta con doble suspension para superar incluso el peor obstaculo",
+        "img": "../img/mountaindoble.jpg",
+        "carga": "520kg"
+    }
+]

@@ -1,17 +1,39 @@
 nav {
-  background-color: #ff6f8a; }
+  background-color: #3e978b; }
 
 body {
-  background-color: #fffab3; }
+  background-color: #eff48e; }
 
 h2 {
   font-family: "Pacifico", cursive; }
 
 .main {
-  background-color: #9bdeac; }
+  background-color: #2ec1ac; }
+
+.main_contacto {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .main_contacto .main_li .img_red {
+    width: 12.5%; }
+  .main_contacto .main_li h3 {
+    text-align: end;
+    font-family: "Arimo", sans-serif;
+    color: white; }
+
+.main_li-Whatsapp {
+  background-image: linear-gradient(315deg, #25d366 36%, white 85%); }
+
+.main_li-Instagram {
+  background-image: linear-gradient(315deg, #c13584 27%, #ffdc80 77%); }
+
+.main_li-Facebook {
+  background-image: linear-gradient(315deg, #4267b2 34%, white 85%); }
+
+.main_li-Twitter {
+  background-image: linear-gradient(315deg, #1da1f2 25%, #e1e8ed 68%); }
 
 .main_foot {
-  background-color: #ff6f8a; }
+  background-color: #3e978b; }
 
 .intro {
   padding-top: 25px; }
@@ -41,13 +63,14 @@ h2 {
   padding: 5px 25px 5px 25px;
   font-size: 25px;
   font-family: "Arimo", sans-serif;
-  color: #fffab3;
-  background-color: #ff6f8a;
+  color: #eff48e;
+  background-color: #d2e603;
   border: 2px solid black; }
 
 .cotizar_btn:hover {
-  background-color: #fa4566;
-  border: 2px solid black; }
+  background-color: #fefff7;
+  border: 2px solid black;
+  color: black; }
 
 .link_text {
   color: #2b2a2a;
